@@ -1,0 +1,10 @@
+{
+  "name": "gulpPractice",
+  "version": "0.1.0",
+  "description": "Gulp Practice",
+  "main": "app.js",
+  "scripts": {
+    "test": "gulp test"
+  }
+}
+
