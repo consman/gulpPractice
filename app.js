@@ -1,16 +1,16 @@
 'use strict';
 
 var myNumber = 7;
-  
-function Constructor() {
-  console.log('running app.js');
-};
 
-this.subtractFromMyNumber = function (amount) {
+function MyApp() {
+  console.log('running app.js');
+}
+
+MyApp.prototype.subtractFromMyNumber = function (amount) {
   console.log('running function in app.js');
-  console.log('myNumber:' + this.myNumber);
+  console.log('myNumber:' + myNumber);
   return (myNumber - amount);
 };
 
-module.exports = Constructor;
+module.exports = MyApp;
 

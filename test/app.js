@@ -8,5 +8,5 @@ var assert = require("chai").assert;
 var foo = 'bar';
 
 assert.equal(foo,'bar' );
-//assert.equal(myApp.subtractFromMyNumber(2), 5);
+assert.equal(myApp.subtractFromMyNumber(2), 5);
 
